@@ -15,6 +15,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<ShopPage/>} /> 
         <Route path="/posts" element={<PostPage/>} />  
+        <Route path="*" element={<h1>404 || page not found</h1>} />  
          
       </Routes>
       </BrowserRouter>
