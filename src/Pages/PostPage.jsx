@@ -17,8 +17,8 @@ export default function PostPage() {
         {img:photo4  , username:  'Hossam Ibrahim', content: 'Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit.'  },
     ])
   return (
-  <div className='w-full flex h-full p-5 gap-50 text-2xl  text-black bg-white '>
-    <div className=' w-1/4 h-[100vh] rounded-t-2xl container   '>
+  <div className='w-full flex h-full p-5 gap-50 text-2xl justify-center text-black bg-white '>
+    <div className=' w-1/4 h-100vh rounded-t-2xl container   '>
        <ProfilrInfo/>
     </div>
       <div className='h-full flex flex-col gap-5 w-1/2 '>
