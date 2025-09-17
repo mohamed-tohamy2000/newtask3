@@ -11,7 +11,7 @@ import ProfilrInfo from '../components/ProfilrInfo'
 
 export default function PostPage() {
     const [posts,setposts] =useState([
-        {img:photo1  , username:'Aohamed Ahmed'  , content:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.'   },
+        {img:photo1  , username:'Mohamed Ahmed'  , content:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.'   },
         {img:photo2  , username:  'Ahmed Hassn', content: 'Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh.'  },
         {img:photo3  , username:  'Mage ali', content: 'Suspendisse potenti. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet.'  },
         {img:photo4  , username:  'Hossam Ibrahim', content: 'Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit.'  },
